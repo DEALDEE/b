@@ -4,22 +4,3 @@
     { "source": "/(.*)", "destination": "/$1.html" }
   ]
 }
-
-
-
-{
-  "rewrites": [
-    { 
-      "source": "/b/:path*", 
-      "destination": "/:path*" 
-    },
-    { 
-      "source": "/a/:path*", 
-      "destination": "https://dealdee1-a-บนเวอเซลของคุณ.vercel.app/:path*" 
-    },
-    { 
-      "source": "/home/:path*", 
-      "destination": "https://dealdeecar-home-บนเวอเซลของคุณ.vercel.app/:path*" 
-    }
-  ]
-}

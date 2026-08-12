@@ -15,11 +15,11 @@
     },
     { 
       "source": "/a/:path*", 
-      "destination": "https://ชื่อโปรเจกต์-a-บนเวอเซลของคุณ.vercel.app/:path*" 
+      "destination": "https://dealdee1-a-บนเวอเซลของคุณ.vercel.app/:path*" 
     },
     { 
       "source": "/b/:path*", 
-      "destination": "https://ชื่อโปรเจกต์-b-บนเวอเซลของคุณ.vercel.app/:path*" 
+      "destination": "https://dealdeecar-home-บนเวอเซลของคุณ.vercel.app/:path*" 
     }
   ]
 }

@@ -10,7 +10,7 @@
 {
   "rewrites": [
     { 
-      "source": "/home/:path*", 
+      "source": "/b/:path*", 
       "destination": "/:path*" 
     },
     { 
@@ -18,7 +18,7 @@
       "destination": "https://dealdee1-a-บนเวอเซลของคุณ.vercel.app/:path*" 
     },
     { 
-      "source": "/b/:path*", 
+      "source": "/home/:path*", 
       "destination": "https://dealdeecar-home-บนเวอเซลของคุณ.vercel.app/:path*" 
     }
   ]

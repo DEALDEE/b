@@ -4,3 +4,22 @@
     { "source": "/(.*)", "destination": "/$1.html" }
   ]
 }
+
+
+
+{
+  "rewrites": [
+    { 
+      "source": "/home/:path*", 
+      "destination": "/:path*" 
+    },
+    { 
+      "source": "/a/:path*", 
+      "destination": "https://ชื่อโปรเจกต์-a-บนเวอเซลของคุณ.vercel.app/:path*" 
+    },
+    { 
+      "source": "/b/:path*", 
+      "destination": "https://ชื่อโปรเจกต์-b-บนเวอเซลของคุณ.vercel.app/:path*" 
+    }
+  ]
+}
